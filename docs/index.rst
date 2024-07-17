@@ -55,7 +55,7 @@ execution environment. You can specify these items:
 Choosing a base image
 ---------------------
 
-You can use any base image you choose.
+You can use any base image you choose, as long as it's a RHEL-type image like CentOS, Fedora, or RHEL. These operating systems are directly supported.
 The smaller the base image, generally, the smaller the final image.
 However, to make Ansible Builder more efficient, you should know what packages, if any, are already installed on the base image you use.
 
